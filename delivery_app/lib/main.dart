@@ -6,10 +6,12 @@ import 'package:delivery_app/constants/style.dart';
 import 'package:delivery_app/controllers/menu_controller.dart';
 import 'package:delivery_app/controllers/navigation_controller.dart';
 
-import 'package:get/route_manager.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
+  Get.put(MenuController());
+  Get.put(NavigationController());
   runApp(const App());
 }
 
