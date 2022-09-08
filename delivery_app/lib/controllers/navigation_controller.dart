@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
-class NavigatonController extends GetxController {
-  static NavigatonController instance = Get.find();
+class NavigationController extends GetxController {
+  static NavigationController instance = Get.find();
 
   final GlobalKey<NavigatorState> key = GlobalKey();
 
